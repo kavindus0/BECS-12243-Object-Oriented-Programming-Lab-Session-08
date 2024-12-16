@@ -1,9 +1,12 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        q01 obj = new q01();
-        obj.calculateGrade(200);
+
+        int[] a = {10, 200, 30, 40, 50};
+        int[] b = {35, 50, 60, 73, 55};
+
+        q03 obj3 = new q03();
+        System.out.println(obj3.allLess(a,b));
 
     }
 }
