@@ -1,7 +1,7 @@
 public class q04 {
     public static void main(String[] args) {
         q04 newObj = new q04();
-        newObj.product("Samab",2000,0.25);
+        newObj.product("Saman",2000,0.25);
 
     }
     String name;
